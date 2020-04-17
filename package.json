@@ -1,0 +1,38 @@
+{
+  "name": "ts-hello-template",
+  "version": "1.0.0",
+  "description": "TS 脚手架的模板文件，可以继续扩展",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_DEV=development webpack-dev-server --config ./build/webpack.config.js",
+    "build": "cross-env NODE_DEV=production webpack --config ./build/webpack.config.js",
+    "dev": "nodemon ./src/index.ts",
+    "fix": "eslint src --ext .js,.ts --fix",
+    "lint": "eslint src --ext .js,.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKYsuiyuan123/ts-hello-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SKYsuiyuan123/ts-hello-template/issues"
+  },
+  "homepage": "https://github.com/SKYsuiyuan123/ts-hello-template#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.28.0",
+    "@typescript-eslint/parser": "^2.28.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^6.8.0",
+    "html-webpack-plugin": "^4.2.0",
+    "nodemon": "^2.0.3",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
