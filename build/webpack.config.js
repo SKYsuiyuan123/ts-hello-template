@@ -2,7 +2,7 @@
  * @Author: sunpeiyuan
  * @Date: 2020-04-18 00:06:24
  * @LastEditors: sunpeiyuan
- * @LastEditTime: 2020-04-18 00:11:16
+ * @LastEditTime: 2020-04-18 01:29:30
  * @FilePath: \ts-hello-template\build\webpack.config.js
  * @Description: 配置文件
  */
@@ -17,7 +17,7 @@ module.exports = {
   },
 
   resolve: {
-    extensions: [".ts", "tsx", ".js"],
+    extensions: [".ts", ".tsx", ".js"],
   },
 
   module: {
