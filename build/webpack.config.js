@@ -2,7 +2,7 @@
  * @Author: sunpeiyuan
  * @Date: 2020-04-18 00:06:24
  * @LastEditors: sunpeiyuan
- * @LastEditTime: 2020-04-18 00:11:16
+ * @LastEditTime: 2020-04-18 01:23:28
  * @FilePath: \ts-hello-template\build\webpack.config.js
  * @Description: 配置文件
  */
@@ -10,14 +10,14 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.ts",
+  entry: "./src/index.tsx",
 
   output: {
     filename: "main.js",
   },
 
   resolve: {
-    extensions: [".ts", "tsx", ".js"],
+    extensions: [".ts", ".tsx", ".js"],
   },
 
   module: {
