@@ -8,4 +8,3 @@
  */
 const hello = "hello ts-hello-template";
 console.log(hello);
-console.log('done...')
